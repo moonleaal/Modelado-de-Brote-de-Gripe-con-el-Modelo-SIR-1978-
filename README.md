@@ -54,23 +54,7 @@ Los valores de $\beta$ y $\gamma$ fueron ajustados para optimizar la representac
 
 ---
 
-## III. Resultados y Conclusiones
-
-### A. Gráfico de la Simulación
-
-La imagen muestra la evolución de los tres compartimentos del modelo (S, I, R) a lo largo del tiempo, contrastada con los datos de infectados reales (puntos azules).
-
-![Modelo SIR - Gripe contenida](Modelo_SIR_Gripe.png)
-
-### B. Interpretación de la Dinámica
-
-* **Susceptibles (S):** La rápida disminución de la curva confirma que el brote fue de alta contagiosidad, dejando una pequeña proporción de la población susceptible al final de la epidemia.
-* **Infectados (I):** La curva presenta el pico epidémico esperado para una enfermedad contenida, disminuyendo a medida que el número de recuperados aumenta.
-* **Ajuste del Modelo:** El modelo ajustado reproduce de manera satisfactoria la tendencia de los datos observados, validando los parámetros utilizados para esta población específica.
-
----
-
-## IV. Requisitos y Uso
+##  Requisitos y Uso
 
 El proyecto requiere la instalación de R y de la librería `deSolve`.
 
